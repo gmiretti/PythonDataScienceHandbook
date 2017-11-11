@@ -14,6 +14,13 @@ Familiarity with Python as a language is assumed; if you need a quick introducti
 
 See [Index.ipynb](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb) for an index of the notebooks available to accompany the text.
 
+## Run locally on one command
+
+If you have installed [Docker on your machine](https://www.docker.com/community-edition#/download), just run:
+```
+$ docker run --rm -p 8888:8888 gmiretti/python-data-science-handbook
+```
+
 ## Required Packages
 
 The code in the book was tested with Python 3.5, though most (but not all) will also work correctly with Python 2.7 and other older Python versions.
